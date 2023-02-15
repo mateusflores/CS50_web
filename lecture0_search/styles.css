@@ -1,6 +1,7 @@
 html {
     background-color: #202124;
     font-family: roboto, arial, helvetica, sans-serif;
+    color: #e8eaed;
 }
 
 li {
@@ -92,3 +93,59 @@ a:hover {
     justify-content: center;
     margin: 10%;
 }
+
+.title-adv {
+    color:#f28b82;
+    font-size: 32px;
+    margin-left: 16px;
+}
+
+.title-adv, .advanced-boxes, #adv-h3 {
+    margin-left: 40px
+}
+
+.advanced-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.label {
+    width: 240px;
+    font-size: 20px;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+}
+
+.advbar {
+    height: 25px;
+    width: 700px;
+    background-color: #202124;
+    border: 1px solid gray;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#adv-h3 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.advanced-boxes > .btn {
+    background-color: #8ab4f8;
+    color: #202124;
+    font-weight: bold;
+}
+
+.horizontal-rule {
+    border-bottom: 1px solid gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-inline: 0px;
+}
+
