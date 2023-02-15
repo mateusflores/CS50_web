@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Search</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style> 
+</head>
+
+<body>
+    <ul class="header">
+        <li><a href="index.html">Google Search</a></li>
+        <li><a href="advanced.html">Advanced Search</a></li>
+        <li><img src="user.png" alt="user image" height="50px"></li>
+    </ul>
+
+    <div class="content">
+        <div class="logo">
+            <img class="google-logo" src="google_logo.png" alt="google images logo">
+            <span id="image-logo">Images</span>
+        </div>    
+
+        <form class="search" action="https://google.com/search">
+            <input class="search-bar" type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
+            <div class="btn-box">
+                <input class="btn" type="submit" value="Google Search">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
